@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://cdn.microlink.io/logo/banner.png"">
+  <img src="https://cdn.microlink.io/logo/banner.png">
 </div>
 
 > A simple Node.js wrapper for [youtube-dl](https://github.com/ytdl-org/youtube-dl).
@@ -22,7 +22,7 @@ $ npm install youtube-dl-exec --save
 const youtubedl = require('youtube-dl-exec')
 
 youtubedl('https://example.com', {
-  dumpSingleJson: true,
+  dumpJson: true,
   noWarnings: true,
   noCallHome: true,
   noCheckCertificate: true,
@@ -97,12 +97,6 @@ The default URL is [ytdl-org/youtube-dl latest release](https://github.com/ytdl-
 It determines the folder where to put the binary file.
 
 The default folder is `bin`.
-
-### YOUTUBE_DL_FILENAME
-
-It determines the binary filename.
-
-The default binary file could be `youtube-dl` or `youtube-dl.exe`, depending of the [`YOUTUBE_DL_PLATFORM`](#youtube_dl_platform) value.
 
 ### YOUTUBE_DL_PLATFORM
 

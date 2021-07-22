@@ -42,21 +42,15 @@
     "youtube-downloader"
   ],
   "dependencies": {
-    "bin-version-check-cli": "~3.0.0",
-    "dargs": "~7.0.0",
-    "execa": "~5.1.0",
-    "get-stream": "~6.0.1",
-    "got": "~11.8.2",
-    "is-unix": "~1.0.0",
     "mkdirp": "~1.0.4",
-    "p-event": "~4.2.0",
-    "p-reflect": "~2.1.0"
+    "p-reflect": "~3.0.0",
+    "semver": "~7.3.5"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "ava": "latest",
-    "conventional-github-releaser": "latest",
+    "conventional-github-releaser": "~3.1.5",
     "coveralls": "latest",
     "finepack": "latest",
     "git-authors-cli": "latest",
@@ -64,7 +58,7 @@
     "lint-staged": "latest",
     "npm-check-updates": "latest",
     "nyc": "latest",
-    "prettier-standard": "latest",
+    "prettier-standard": "~16.4.1",
     "simple-git-hooks": "latest",
     "standard": "latest",
     "standard-markdown": "latest",
